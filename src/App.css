@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.4;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+}
+
+.btn--icon {
+  padding: 0.3rem 0.4rem;
+}
+
+.btn--ok {
+  background: #0984E3;
+  color: #fff;
+}
+
+.btn--tosca {
+  background-color: #00BCD4;
+  color: #fff;
+}
+
+.btn--red {
+  background: #E74C3C;
+  color: #fff;
+}

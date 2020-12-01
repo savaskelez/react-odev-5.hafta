@@ -1,0 +1,15 @@
+.header {
+    background: #f1a210;
+    color: rgb(36, 39, 204);
+    text-align: center;
+    padding: 1rem;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}

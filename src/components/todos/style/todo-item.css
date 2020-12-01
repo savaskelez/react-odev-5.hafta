@@ -1,0 +1,35 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #da1c1c;
+}
+
+.item__content {
+    display: flex;
+    align-items: center;
+    max-width: 75%;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item p {
+    margin-left: 1rem;
+}
+
+.item button:nth-last-of-type(2) {
+    margin-right: 0.5rem;
+}
+
+.item img {
+    max-width: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .item__content {
+        max-width: 70%;
+    }
+}

@@ -1,0 +1,17 @@
+.add-todo, .form-add-todo__input {
+    padding: 0.5rem;
+}
+
+.form-add-todo {
+    display: flex;
+}
+
+.form-add-todo__input {
+    flex: 10;
+    margin-right: 0.5rem;
+    border: none;
+}
+
+.form-add-todo__btn {
+    flex: 1;
+}
